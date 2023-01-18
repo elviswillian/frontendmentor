@@ -112,28 +112,32 @@ a{
     text-decoration: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
+    body{
+        width: 230px;
+    }
+
     section{
         
         background-color: white;
     
-        width: 250px;
-        height: 87vh;
+        width: 220px;
+        height: 75vh;
     
-        margin-left: 60px;
-        margin-top: 5vh;
+        margin-left: 8px;
+        margin-top: 3vh;
     
         border-radius: 7px;
     }
     
     
     img{
-        height: 280px;
-        width: 250px;
+        height: 240px;
+        width: 220px;
         border-radius: 7px 7px 0px 0px;
     }
     #inf{
-        height: 290px;
+        height: 250px;
         background-color: white;
         margin-left: 10px;
     }
@@ -163,13 +167,13 @@ a{
         font-size: 25px;
         font-weight: bolder;
         color: rgb(2, 90, 2);
-        margin-top: 15px;
+        margin-top: 6px;
     }
     #precoAnt{
         font-family: Arial, Helvetica, sans-serif;
         text-decoration: line-through;
         color: var(--cor3) ;
-        margin-top: 22px;
+        margin-top: 15px;
         margin-left: 15px;
         font-size: 12px;
     }
@@ -179,9 +183,9 @@ a{
     
     button{
         font-family: 'Montserrat';
-        margin-top: 25px;
+        margin-top: 10px;
         padding: 13px;
-        width: 230px;
+        width: 200px;
         background-color: rgb(32, 170, 94);
         color: white;
         border: none;
@@ -190,5 +194,11 @@ a{
     button:hover{
         background-color: rgb(27, 146, 81); 
         cursor: pointer;
+    }
+    .attribution{ 
+        width: 200px;
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
     }
 }
