@@ -113,16 +113,13 @@ a{
 }
 
 @media screen and (min-width: 375px) {
-    body{
-        width: 450px;
-    }
 
     section{
         
         background-color: white;
     
         width: 280px;
-        height: 85vh;
+        height: 90vh;
     
         margin:auto;
         margin-top: 3vh;
