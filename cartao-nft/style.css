@@ -52,6 +52,9 @@ a{
     text-decoration: none;
     color: white;
 }
+a:hover{
+    color: var(--primary2);
+}
 
 #valor{
     color: var(--primary2);
@@ -70,4 +73,8 @@ a{
 
 hr{
     width: 230px;
+}
+
+.attribution{
+    color: var(--primary1);
 }
