@@ -3,13 +3,12 @@ body{
   padding: 0;
   width: 100vw;
   height: 100vh;
-
-  background: linear-gradient(72deg, green 1%, white 99%);
+  background-image: url(imagens/pdparede.jpg);
 }
 
 .content{
-  height: 520px;
-  width: 935px;
+  height: 600px;
+  width: 300px;
   border-radius: 20px;
   overflow: hidden;
   position: absolute;
@@ -27,7 +26,7 @@ body{
 }
 
 .bar{
-  width: 70px;
+  width: 25px;
   height: 17px;
   border: 2px solid #fff;
   margin: 6px;
@@ -46,7 +45,7 @@ input{
 
 .slides{
   display: flex;
-  width: 400%;
+  width: 350%;
   height: 100%;
 }
 
@@ -61,15 +60,18 @@ input{
 }
 
 #slide1:checked ~ .s1{
-  margin-left: 0;
+  margin-left: 6%;
 }
 
 #slide2:checked ~ .s1{
-  margin-left: -25%;
+  margin-left: -23%;
 }
 #slide3:checked ~ .s1{
-  margin-left: -50%;
+  margin-left: -48%;
 }
 #slide4:checked ~ .s1{
-  margin-left: -75%;
+  margin-left: -73%;
+}
+#slide5:checked ~ .s1{
+  margin-left: -100%;
 }
